@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background: url("images/bg.png") no-repeat fixed center/cover;
+}
+
+header {
+  text-align: center;
+}
+header img {
+  width: 200px;
+}
+
+#pageAccueil {
+  height: 100vh;
+}
+
+.accueil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  height: 60%;
+}
+.accueil h1 {
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+.accueil_form h2 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+.accueil_form form {
+  width: 100%;
+}
+.accueil_form form input, .accueil_form form button {
+  height: 40px;
+  border-radius: 5px;
+}
+.accueil_form form #nom {
+  width: 200px;
+}
+.accueil_form form button {
+  width: 70px;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}/*# sourceMappingURL=style.css.map */

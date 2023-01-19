@@ -1,0 +1,301 @@
+{
+    "pageName" : "Quizz Front-End",
+
+   "quiz" : [
+        {
+            "question": "Que signifie HTML ?",
+            "answer": [
+                "HomeTabulation of Mailing List",
+                "HyperText Markup Language",
+                "Hyperspace TradeMark Language",
+                "XpTdr Mdr Lol"
+            ],
+            "goodAnswer": "HyperText Markup Language",
+            "information": ""
+        },
+        {
+            "question": "À quoi sert HTML ?",
+            "answer": [
+                "À mettre en forme des pages web",
+                "À structurer du contenu dans une page web",
+                "À créer des pages dynamiques",
+                "À concurrencer Google et Facebook"
+            ],
+            "goodAnswer": "À structurer du contenu dans une page web",            
+            "information": ""
+        },
+        {
+            "question": "En quelle année est né HTML ?",
+            "answer": [
+                "Dans les années 70",
+                "Entre 1986 et 1988",
+                "En en août 1991",
+                "Plutôt en 2002"
+            ],
+            "goodAnswer": "En en août 1991",
+            "information": "Par Tim Berners-Lee"
+
+        },
+        {
+            "question": "Comment représenter un paragraphe en HTML ?",
+            "answer": [
+                "<ul>",
+                "<div>",
+                "<paragraph>",
+                "<p>"
+            ],
+            "goodAnswer": "<p>",
+            "information": ""
+
+        },
+        {
+            "question": "Comment représenter une liste en HTML ?",
+            "answer": [
+                "<list>",
+                "<li>",
+                "<ul>",
+                "<h1>"
+            ],
+            "goodAnswer": "<ul>",
+            "information": "ul signifie Unordered List"
+
+        },
+        {
+            "question": "Trouvez l'intrus",
+            "answer": [
+                "<img>",
+                "<span>",
+                "<div>",
+                "<a>"
+            ],
+            "goodAnswer": "<img>",
+            "information": "la balise <img> est auto fermante"
+
+        },
+        {
+            "question": "Quel attribut HTML est lié aux images ?",
+            "answer": [
+                "class",
+                "href",
+                "src",
+                "data"
+            ],
+            "goodAnswer": "src",
+            "information": ""
+
+        },
+        {
+            "question": "Quel attribut indique la destination d'un lien ?",
+            "answer": [
+                "link",
+                "href",
+                "a",
+                "src"
+            ],
+            "goodAnswer": "href",
+            "information": ""
+
+        },
+        {
+            "question": "Que signifie CSS ?",
+            "answer": [
+                "Cascading Style Sheets",
+                "Create Simple Samples",
+                "C'est Super Simple !",
+                "Choucroute et Saucisses Sèche"
+            ],
+            "goodAnswer": "Cascading Style Sheets",
+            "information": ""
+
+        },
+        {
+            "question": "À quoi sert le langage CSS ?",
+            "answer": [
+                "À réaliser des pages dynamiques",
+                "À ajouter du style aux documents web",
+                "À insérer du contenu dans une page internet",
+                "À simuler une application en mode avion"
+            ],
+            "goodAnswer": "À ajouter du style aux documents web",
+            "information": ""
+
+        },
+        {
+            "question": "Où est-il conseillé de placer le code CSS ?",
+            "answer": [
+                "Dans le <body>",
+                "Entre les balises <head>",
+                "Dans un fichier externe",
+                "Dans un fichier JavaScript"
+            ],
+            "goodAnswer": "Dans un fichier externe",
+            "information": "Un fichier externe pourra être utiliser sur plusieurs pages"
+        },
+        {
+            "question": "Dans quoi définit-on les déclarations CSS ?",
+            "answer": [
+                "[ ... - ... ]",
+                "\" ... / ... \"",
+                "{ ... ; ... }",
+                "Dans un fichier texte \".doc\""
+            ],
+            "goodAnswer": "{ ... ; ... }",
+            "information": ""
+        },
+        {
+            "question": "Quel élément sépare la propriété de sa valeur en CSS ?",
+            "answer": [
+                "Le signe espace ( )",
+                "Le signe égal (=)",
+                "Le signe deux points (:)",
+                "Le signe point-virgule (;)"
+            ],
+            "goodAnswer": "Le signe deux points (:)",
+            "information": ""
+
+        },
+        {
+            "question": "Combien de règles peut contenir un fichier CSS ?",
+            "answer": [
+                "Il n'y a pas de limite",
+                "Le fichier ne doit pas excéder 20Ko",
+                "150 à plus ou moins 10%",
+                "Cela dépend des navigateurs"
+            ],
+            "goodAnswer": "Il n'y a pas de limite",
+            "information": ""
+
+        },
+        {
+            "question": "Qu'est-ce qu'une Media Query ?",
+            "answer": [
+                "Un format de base de données mobiles",
+                "Un attribut HTML propriétaire de Google",
+                "Une règle CSS permettant de détecter des types de médias",
+                "Un jeu gratuit sur mobile"
+            ],
+            "goodAnswer": "Une règle CSS permettant de détecter des types de médias",
+            "information": ""
+
+        },
+        {
+            "question": "Quelle Media Query est correcte ?",
+            "answer": [
+                "@media (min-width: 600) {}",
+                "@media only screen and (max-width: 600px;) {}",
+                "@media (width: 600px) {}",
+                "@media screen and (min-viewport-width: 600px) {}"
+            ],
+            "goodAnswer": "@media (width: 600px) {}",
+            "information": ""
+
+        },
+        {
+            "question": "Quelle propriété permet de créer une grille ?",
+            "answer": [
+                "position",
+                "display",
+                "grid",
+                "transform"
+            ],
+            "goodAnswer": "display",
+            "information": "Création d'une grille avec display: grid;"
+        },
+        {
+            "question": "À partir de quelle version d'Internet Explorer, Flexbox est-il supporté ?",
+            "answer": [
+                "IE8",
+                "IE9",
+                "IE10",
+                "IE11"
+            ],
+            "goodAnswer": "IE10",
+            "information": "Consultez le site CanIUse pour vérifier la compatibilité !"
+
+        },
+        {
+            "question": "Quelle propriété de Flexbox existe vraiment ?",
+            "answer": [
+                "flex-wrap",
+                "corn-flex",
+                "tarti-flex",
+                "circon-flex"
+            ],
+            "goodAnswer": "flex-wrap",
+            "information": ""
+
+        },
+        {
+            "question": "Quel est le rapport entre Java et JavaScript ?",
+            "answer": [
+                "C'est le même langage",
+                "Ce sont deux langages différents, avec quelques points communs dans la syntaxe",
+                "Java est une version améliorée de JavaScript",
+                "Java est une île, ça n'a rien à voir"
+            ],
+            "goodAnswer": "Ce sont deux langages différents, avec quelques points communs dans la syntaxe",
+            "information": ""
+
+        },
+        {
+            "question": "Laquelle de ces syntaxes est correcte ?",
+            "answer": [
+                "if (a != 2) {}",
+                "if a != 2 {}",
+                "if (a <> 2) {}",
+                "if a <> 2 {}"
+            ],
+            "goodAnswer": "if (a != 2) {}",
+            "information": ""
+
+        },
+        {
+            "question": "Lequel de ces événements n'existe pas ?",
+            "answer": [
+                "blur",
+                "load",
+                "mouseclick",
+                "mouseout"
+            ],
+            "goodAnswer": "mouseclick",
+            "information": ""
+
+        },
+        {
+            "question": "Quelle méthode n'existe pas dans le DOM ?",
+            "answer": [
+                "document.getElementsByClassName",
+                "document.getElementsByTagName",
+                "document.getElementsByAttribute",
+                "document.getElementById"
+            ],
+            "goodAnswer": "document.getElementsByAttribute",
+            "information": ""
+
+        },
+        {
+            "question": "Dans une boucle, l'instruction continue permet de :",
+            "answer": [
+                "Continuer l'exécution du code après la boucle",
+                "Passer à l'itération suivante",
+                "Revenir au début de l'itération courante",
+                "Supprimer toutes les variables globales"
+            ],
+            "goodAnswer": "Passer à l'itération suivante",
+            "information": ""
+
+        },
+        {
+            "question": "Quelle méthode permet de comparer deux chaînes texte ?",
+            "answer": [
+                "charAt()",
+                "charCodeAt()",
+                "indexOf()",
+                "localeCompare()"
+            ],
+            "goodAnswer": "localeCompare()",
+            "information": ""
+
+        }
+    ]
+}
