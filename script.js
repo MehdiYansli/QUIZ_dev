@@ -89,13 +89,14 @@ async function getData() {
 // ajouter les informations sur une réponse si il y en a dans le json
                 if (quiz[i].information != "") {
                     let info = document.createElement('p')
-                    info.style.color = 'green'
+                    info.style.color = 'white'
                     info.style.border= 'solid green'
                     info.style.width= '90%'
                     info.style.margin= '10px auto'
                     info.style.padding= '5px 5px'
                     info.style.borderRadius= '10px'
                     info.style.textAlign = 'center'
+                    info.style.backgroundColor = '#21cf0554'
                     info.textContent = quiz[i].information
                     listAll[i].append(info)
                     
