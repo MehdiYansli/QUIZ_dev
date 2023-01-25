@@ -29,10 +29,10 @@
             "answer": [
                 "Dans les années 70",
                 "Entre 1986 et 1988",
-                "En en août 1991",
+                "En août 1991",
                 "Plutôt en 2002"
             ],
-            "goodAnswer": "En en août 1991",
+            "goodAnswer": "En août 1991",
             "information": "Par Tim Berners-Lee"
 
         },
@@ -69,7 +69,7 @@
                 "<a>"
             ],
             "goodAnswer": "<img>",
-            "information": "la balise <img> est auto fermante"
+            "information": "La balise <img> est auto fermante"
 
         },
         {
@@ -264,10 +264,10 @@
         {
             "question": "Quelle méthode n'existe pas dans le DOM ?",
             "answer": [
-                "document.getElementsByClassName",
-                "document.getElementsByTagName",
-                "document.getElementsByAttribute",
-                "document.getElementById"
+                "getElementsByClassName",
+                "getElementsByTagName",
+                "getElementsByAttribute",
+                "getElementById"
             ],
             "goodAnswer": "document.getElementsByAttribute",
             "information": ""
